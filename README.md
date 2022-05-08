@@ -2,9 +2,7 @@
 
 In this repository, a front application is deployed automatically with Docker on Heroku.
 
-This repository has two branches:
+The continuous integration flow has been defined in the ci.yml file, so that every time a Pull Request is made, a pipeline is launched to run the tests automatically.
+The continuous deployment flow has also been defined in the cd.yml file, so that it is deployed with docker on Heroku every time a push is made on master.
 
-- Master: the repository code is hosted.
-- heroku-branch: only the static files hosted in heroku repository
-
-The deployed app can be found at https://lemoncode-module-cloud-extra-1.herokuapp.com/
+The deployed app can be found at https://lemoncode-module-cloud-extra-2.herokuapp.com/
